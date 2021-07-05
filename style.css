@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mukta', sans-serif;
+}
+navbar{
+    background-color: rgba(112, 106, 106, 0.493);
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;
+    word-spacing: 50px;
+}
+navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+navbar a:hover{
+    color: black;
+}
+.summry{
+    width: 800px;
+    height: 400px;
+    background-color: mediumpurple;
+    margin: 0 auto;
+    margin-top: 130px;
+    display: flex;
+    position: relative;
+}
+.show1{
+    width: 50%;
+    background-color: rgb(73, 73, 146);
+}
+.show2{
+    position: relative;
+    width: 50%;
+    background-color: midnightblue;
+}
+.show1 img{
+    position: absolute;
+    border-radius: 350px;
+    top:35px;
+    left: 2px;
+}
